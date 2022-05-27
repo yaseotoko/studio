@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+}
+
+
+/* ヘッダー */
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    border-style: none none solid none;
+    border-color: #0000cc;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    width: 200px;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    margin: auto 5px auto 0;
+}
+
+.login {
+    border: 1px solid;
+    color: black;
+    background-color: #66ccff;
+    margin: 4px;
+    padding: 5px;
+}
+
+.signup {
+    border: 1px solid;
+    color: black;
+    background-color: #66ccff;
+    margin: 4px;
+    padding: 5px;
+}
+
+.logout {
+    border: 1px solid;
+    color: black;
+    background-color: #66ccff;
+    margin: 4px;
+    padding: 5px;
+}
+
+.studio {
+    border: 1px solid;
+    color: black;
+    background-color: #66ccff;
+    margin: 4px;
+    padding: 5px;
+}
+
+
+/* スタジオ表 */
+
+.home-content {
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.page-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.75rem;
+    color: #0000cc;
+}
+
+.pagenav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-next {
+    margin: 0 0 0 auto;
+}
+
+.nav {
+    width: 50px;
+    margin: 15px 40px;
+}
+
+
+/* 表部分 */
+
+.studio-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.studio-date {
+    border: 1px solid;
+    table-layout: fixed;
+}
+
+.band {
+    color: black;
+}
+
+.studio-date th {
+    height: 50px;
+    background-color: #66ccff;
+    min-width: 145px;
+}
+
+.studio-date td {
+    border: 1px solid;
+}
+
+.band {
+    height: 60px;
+    width: 110px;
+    text-align: center;
+}
+
+.time {
+    height: 60px;
+    width: 35px;
+    text-align: center;
+}
+
+
+/* ログインもしくは新規作成のページ */
+
+.loginorsignup-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+
+/* ログインページ */
+
+.login-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+}
+
+.login-form p {
+    margin: 5px 15px 15px;
+    font-size: 1.5rem;
+}
+
+.login-form a {
+    font-size: 1.5rem;
+}
+
+.login-student_number,
+.login-password {
+    width: 130px;
+}
+
+.login-form input {
+    border: 1px solid;
+}
+
+.login-button {
+    background-color: #66ccff;
+    color: black;
+    padding: 4px;
+    width: auto;
+    font-size: 1.75rem;
+    border: 1px solid;
+}
+
+
+/* 新規作成 */
+
+.signup-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+}
+
+.signup-form p {
+    margin: 5px 15px 15px;
+}
+
+.signup-student_number,
+.signup-student_name,
+.signup-password {
+    font-size: 1.5rem;
+    width: 130px;
+}
+
+.signup-student_name {
+    font-size: 1.5rem;
+    width: 202px;
+}
+
+.signup-form input {
+    border: 1px solid;
+}
+
+.signup-button {
+    background-color: #66ccff;
+    color: black;
+    padding: 4px;
+    width: auto;
+    font-size: 1.75rem;
+    border: 1px solid;
+}
+
+.paragraph {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+
+/* チェックページ */
+
+.check_student_number {
+    padding: 15px;
+}
+
+.check-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+span {
+    color: red;
+}
+
+.back-button {
+    padding: 5px;
+    color: #000;
+    border: 1px solid;
+}
+
+.check-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+/* 会員登録完了画面 */
+
+.thanks-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+}
+
+.thanks-form p {
+    margin: 5px 15px 15px;
+    font-size: 1.5rem;
+}
+
+.thanks-button {
+    display: flex;
+    margin: 10px;
+}
+
+.thanks-button .login-button {
+    background-color: #66ccff;
+    color: black;
+    padding: 4px;
+    font-size: 1.75rem;
+}
+
+
+/* バンド登録 */
+
+.register-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+.register-band {
+    font-size: 1.5rem;
+    width: 130px;
+}
+
+.register-form input {
+    border: 1px solid;
+}
+
+.register-button {
+    background-color: #66ccff;
+    color: black;
+    padding: 4px;
+    font-size: 1.5rem;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+}
+
+
+/* バンド表登録チェックページ */
+
+.register-check-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+.register-check {
+    padding: 15px;
+}
+
+span {
+    color: red;
+}
+
+.back-button {
+    font-size: 1.75rem;
+    color: #000;
+    border: 1px solid;
+}
+
+.register-button {
+    color: #000;
+    font-size: 1.75rem;
+    border: 1px solid;
+}
+
+.check-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+
+/* 削除 */
+
+.band-form {
+    margin: 20px auto;
+    width: 330px;
+    border: 1px solid;
+    font-size: 1.5rem;
+}
+
+.band-form p {
+    margin: 5px 15px 15px;
+}
+
+.delete-button {
+    border: 1px solid;
+    background-color: #66ccff;
+    color: black;
+    padding: 4px;
+    font-size: 1.75rem;
+}
+
+@media(max-width:700px) {
+    .menu {
+        flex-wrap: wrap;
+    }
+    .studio-table {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav {
+        width: 30px;
+    }
+}
